@@ -3,3 +3,33 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header {
+  text-align: center; /* Aligns the text in the header to the center */
+}
+
+nav a {
+  padding: 10px; /* Adds padding to the left and right sides of the navigation links */
+  background-color: grey; /* Sets the background color of the navigation links to grey */
+}
+
+#featured-property {
+  text-align: center; /* Centers the text within the #featured-property section */
+}
+
+#featured-property p {
+  width: 800px; /* Sets a hard width of 800px for the paragraphs within #featured-property */
+  margin: 10px auto; /* Adds a little vertical space around the paragraphs */
+}
+
+#featured-property figure figcaption {
+  font-size: 14px; /* Shrinks the font size of the image caption */
+  text-align: center; /* Centers the image caption */
+}
+
+#details div {
+  float: left; /* Floats each div within the #details section to the left */
+  width: 25%; /* Occupies 25% of the width of the bottom row */
+  background-color: lightgray; /* Sets the background color of the divs to light gray */
+  text-align: center; /* Centers the text within the divs */
+}
